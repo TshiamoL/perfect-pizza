@@ -1,6 +1,7 @@
 body {
-    background-color: orangered;
+    background-color: #f4a261;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
 }
 
 
@@ -24,21 +25,22 @@ body {
 
 }
 .small_pizza {
-    background-color: yellow ;
+    background-color: #ddbea9;
     flex: 1
 }
 
 .medium_pizza {
-    background-color: lawngreen;
+    background-color: #b7b7a4;
     flex: 1
     
 } 
 .large_pizza {
-    background-color:  greenyellow;
+    background-color:  #ffd7ba;
     flex: 1
 }
 .contact_us {
-    background-color: green;
+    background-color: #ffcdb2;
+    text-align: center;
     flex: 1
 
 }
@@ -53,7 +55,7 @@ body {
 @media(min-width: 960px) {
 
     body {
-        background-color: rgb(24, 211, 192);
+    background-color: #e07a5f;
     }
     .pizzas {
         Display: flex;
